@@ -19,7 +19,7 @@ const Category = () => {
   };
 
   return (
-    <ul className=" max-w-full flex flex-row gap-4 overflow-x-auto">
+    <ul className="w-full overflow-x-auto flex flex-row gap-4 p-2">
       {homeCategoryList.map((item) => {
         return (
           <li

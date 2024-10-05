@@ -81,7 +81,7 @@ const Header = ({ children }) => {
         className={cn("sticky top-0 left-0 z-10", isScrolled && "bg-black")}
       >
         <PagePadding>
-          <div className=" h-[42px] flex flex-row items-center justify-between">
+          <div className=" h-[64px] flex flex-row items-center justify-between">
             <article
               className="h-[42px] min-w-[480px] hidden lg:flex flex-row items-center
             bg-[rgba(0,0,0,0.14)] rounded-2xl px-[16px] gap-[16px] border border-neutral-500
